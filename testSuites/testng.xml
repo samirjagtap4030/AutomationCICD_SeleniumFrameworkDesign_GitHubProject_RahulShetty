@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>       <!-- testng2.xml=> here we just added listener tag  -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name ="Suite">
+  
+  <listeners>      
+    <listener class-name="rahulshettyacademy.TestComponents.Listeners"/>
+</listeners>
+  
+  <test thread-count="5" name="Submit Order Test">
+    <classes>
+      <class name="rahulshettyacademy.tests.SubmitOrderTest"/>
+    </classes>
+   </test> 
+ 
+  <test thread-count="5" name="Error Validations Test">
+    <classes>
+      <class name="rahulshettyacademy.tests.ErrorValidationsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
