@@ -43,7 +43,7 @@ public class SubmitOrderTest extends BaseTest{
 	public void OrderHistoryTest()
 	{
 		//"ZARA COAT 3";
-		ProductCatalogue productCatalogue = landingPage.loginApplication("anshika@gmail.com", "Iamking@000");
+		ProductCatalogue productCatalogue = landingPage.loginApplication("postman4075@gmail.com", "Hello123@");
 		OrderPage ordersPage = productCatalogue.goToOrdersPage();
 		Assert.assertTrue(ordersPage.VerifyOrderDisplay(productName));
 		
