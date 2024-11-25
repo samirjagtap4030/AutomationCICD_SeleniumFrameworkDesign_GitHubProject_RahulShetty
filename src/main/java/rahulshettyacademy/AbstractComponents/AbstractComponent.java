@@ -27,10 +27,10 @@ public class AbstractComponent {
 		
 	}
 	
-	@FindBy(css = "[routerlink*='cart']")
+	@FindBy(css = "[routerlink='/dashboard/cart']")
 	WebElement cartHeader;
 	
-	@FindBy(css = "[routerlink*='myorders']")
+	@FindBy(css = "[routerlink='/dashboard/myorders']")
 	WebElement orderHeader;
 
 /*	 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
